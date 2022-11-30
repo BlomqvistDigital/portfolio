@@ -247,6 +247,7 @@ a:hover {
   left: -60%;
   bottom: -60%;
   height: 80vh;
+  z-index: -1;
 }
 
 /* Contact Section */
@@ -415,14 +416,17 @@ a:hover {
   .one {
     margin-top: 2rem;
   }
-  .one, .two, .four {
+  .one, .two, .three {
     min-height: 16rem;
   }
-  .three {
+  .projects-arrow {
     display: none;
   }
   .project-grid:hover {
     margin: 0 -6vw;
+  }
+  .projects-container {
+    margin-bottom: 24rem;
   }
   .other-projects {
     height: 80vh;
@@ -459,6 +463,9 @@ a:hover {
   }
   #contact-sphere {
     right: -55%;
+  }
+  .contact-container {
+    margin-top: 20rem;
   }
  }
 
@@ -510,7 +517,7 @@ a:hover {
   }
 
   .contact-container {
-    margin-top: 24rem;
+    margin-top: 16rem;
     margin-bottom: 4rem;
   }
  }
